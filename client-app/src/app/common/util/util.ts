@@ -1,5 +1,3 @@
-import { date } from "date-fns/locale/af";
-
 export const combineDateAndTime = (date: Date, time: Date) => {
     const timeString = time.getHours() + ':' + time.getMinutes() + ':00'
     
